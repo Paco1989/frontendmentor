@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontendMentor1
-    </title>
+    <title>FrontendMentor1</title>
+    <link href="./estilos/estilos.css" rel="stylesheet">
+    
 </head>
 <body>
 <div class="icon">
-    <img href="./Imagenes/estrellaIcon.jpg">
+    <img src="./Imagenes/estrellaIcon.jpg" width="30px" height="30px">
 </div>
 <div class="cuerpo">
     <h1>Cual fue tu experiencia?</h1>
     <p>Nos gustaria saber tu califiacion de nuestro producto. <br>
-       Nos podras calificr del 1 al 5, donde 1 es insatisfecho y 5 Muy satisfech</p>
+       Nos podras calificr del 1 al 5, donde 1 es insatisfecho y 5 Muy satisfecho</p>
 </div>
-<div>
+<form method="post" action="submmit.php">
+<div class="list">
     <ul>
         <li>1</li>
         <li>2</li>
@@ -25,8 +27,9 @@
         <li>5</li>
     </ul>
 </div>
-<div>
+<div class="button">
     <button type="submit">Enviar puntuacion</button>
-</div>    
+</div>
+</form>    
 </body>
 </html>
